@@ -12,6 +12,7 @@ class CameraController {
       console.error(err);
     });
   }
+  
   stop() {
     this._stream.getTracks().forEach(track => {
       track.stop();

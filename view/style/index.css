@@ -5,19 +5,19 @@
 
 body {
   display: flex;
-  background-color: white;
+  background-color: #363636;
   flex-direction: column;
   align-items: center;
-  color: #111;
+  color: #bbb;
 }
 
 header {
-  background-color: #e3e3e3;
+  background-color: hsl(0, 0%, 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 1px 1px 1px 1px #e3e3e3;
+  padding: .2em 0;
 }
 
 header h1 {
@@ -31,27 +31,27 @@ header nav {
 }
 
 header nav button {
-  margin: .4em 0 0 0;
-  background-color: #686868;
+  background-color: #e41c37;
   border: none;
   width: 100%;
   height: 24px;
-  border-left: 1px solid white;
+  border-right: 1px solid white;
   border-collapse: collapse;
   color: #eee;
   box-shadow: 1px 1px 1px 1px #e3e3e3;
 }
 
-header nav button:first-child {
-  border-left: 0px;
+header nav button:last-child {
+  border-right: 0px;
+  background-color: #474747;
 }
 
 .container {
   text-align: center;
-  background-color: #eee;
-  box-shadow: 1px 1px 1px 1px #e3e3e3;
-  margin-top: .4em;
-  padding: 40vh;
+  background-color: #474747;
+  box-shadow: 0px 0px 3px 3px rgba(228, 28, 55, .5);
+  margin-top: 2em;
+  padding: 230px;
 }
 
 footer {
@@ -59,12 +59,12 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
-  background-color: red;
-  padding: .2em;
+  background-color: #fff;
+  padding: .2em 0;
 }
 
 footer a {
-  color: white;
+  color: #e41c37;
   font-weight: bold;
 }
 
